@@ -29,6 +29,10 @@
           <p>Processos mais rápidos, menos erros</p>
         </div>
       </div>
+      <div class="nav-links" aria-label="Navegação principal">
+        <a href="#topo">Home</a>
+        <a href="#contato">Contato</a>
+      </div>
       <a class="nav-cta" href="#contato">Quero automatizar</a>
     </nav>
 
@@ -229,11 +233,35 @@
           Se sua equipe ainda perde horas com tarefas repetitivas, existe uma forma mais rápida, mais segura e
           muito mais lucrativa de operar.
         </p>
-        <div class="hero-actions">
-          <a class="btn btn-primary" href="mailto:contato@exemplo.com">Solicitar diagnóstico</a>
-          <a class="btn btn-secondary" href="#topo">Voltar ao topo</a>
+        <div class="contact-points" aria-label="Formas de contato">
+          <span>E-mail: mauricio.vargas.jr@outlook.com</span>
+          <span>Resposta rápida para diagnóstico</span>
+          <span>Projetos sob medida para empresas</span>
         </div>
-        <small>Microcopy sugerida: resposta rápida, avaliação sem compromisso e foco em ganho real.</small>
+        <div class="contact-layout">
+          <form class="contact-form" action="mailto:mauricio.vargas.jr@outlook.com" method="post" enctype="text/plain">
+            <label>
+              Nome
+              <input type="text" name="nome" placeholder="Seu nome" required />
+            </label>
+            <label>
+              E-mail
+              <input type="email" name="email" placeholder="seuemail@empresa.com" required />
+            </label>
+            <label>
+              Mensagem
+              <textarea name="mensagem" rows="4" placeholder="Descreva o processo que você quer automatizar..." required></textarea>
+            </label>
+            <button class="btn btn-primary" type="submit">Enviar mensagem</button>
+          </form>
+          <div class="contact-side">
+            <a class="btn btn-whatsapp" href="https://wa.me/5531996486319?text=Ol%C3%A1%2C%20quero%20automatizar%20um%20processo" target="_blank" rel="noreferrer">
+              Falar no WhatsApp
+            </a>
+            <a class="btn btn-secondary" href="#topo">Voltar para a home</a>
+          </div>
+        </div>
+        <small>resposta rápida, avaliação sem compromisso e foco em ganho real.</small>
       </div>
     </section>
   </main>
